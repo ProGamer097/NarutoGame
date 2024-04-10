@@ -11,9 +11,9 @@ async def start_command(client, message):
     
     if not existing_user:
         add_user(user_id, username)
-        await message.reply("Welcome to Naruto Game Bot!")
+        await message.reply("Welcome to ushio Game Bot!")
     else:
-        welcome_back_message = f"Welcome back in Naruto Game Bot, {username}!\n\n" \
+        welcome_back_message = f"Welcome back in ushio Game Bot, {username}!\n\n" \
                                f"Click the button below to join our support chat."
         
         inline_keyboard = InlineKeyboardMarkup([
